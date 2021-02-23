@@ -3,6 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "strictPropertyInitialization": false, // Resolver problemas da model sem construtor, pois não solicita 
+    // inicialização dos atritubos
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
