@@ -34,7 +34,7 @@ export class CadastrarComponent implements OnInit {
   }
 
   cadastrar(){
-    this.usuario.tipoUsuario = this.tipo
+    this.usuario.tipo = this.tipo
 
     if(this.usuario.senha != this.confirmarSenha){
       alert("As senhas estão incorretas")

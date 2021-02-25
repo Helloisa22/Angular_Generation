@@ -13,6 +13,7 @@ export class MenuComponent implements OnInit {
 
   nome = environment.nome
   foto = environment.foto
+  usuario = environment.usuario
 
   constructor() { }
 
@@ -20,11 +21,10 @@ export class MenuComponent implements OnInit {
   }
 
   sair(){
-    this.router.navigate(['/entrar'])
+    this.router.navigate(['/entrada'])
     environment.token = ''
     environment.nome = ''
     environment.foto = ''
     environment.id = 0
   }
-
 }
