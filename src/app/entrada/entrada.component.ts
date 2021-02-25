@@ -44,28 +44,3 @@ export class EntradaComponent implements OnInit {
     })
   }
 }
-
-
-/*
-logar(){
-    this.auth.entrar(this.userLogin).subscribe((resp: UserLogin)=> {
-      this.userLogin = resp
-
-      environment.token = this.userLogin.token
-      environment.id = this.userLogin.id
-      environment.nome = this.userLogin.nome
-      environment.foto = this.userLogin.foto
-
-      console.log(environment.token)
-      console.log(environment.id)
-      console.log(environment.nome)
-      console.log(environment.foto)
-
-      this.router.navigate(['/inicio'])
-    }, erro => {
-      if(erro.status == 500){
-        alert("Usuario ou senha incorreto")
-      }
-    })
-  }
-*/
