@@ -35,7 +35,7 @@ export class EntradaComponent implements OnInit {
       console.log(environment.id)
       console.log(environment.nome)
       console.log(environment.foto)
-
+      console.log(resp)
       this.router.navigate(['/inicio'])
     }, erro => {
       if(erro.status == 500){

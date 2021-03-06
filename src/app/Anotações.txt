@@ -1,0 +1,1 @@
+Passos para consumir API -> Cria a model -> Service (ng g s service/*nome service*) -> Se o consumo da API estiver em outro local tem que instanciar o obgeto no ts do componente -> 
